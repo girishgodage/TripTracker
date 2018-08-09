@@ -56,7 +56,7 @@ namespace TripTracker.BackService
 
             app.UseMvc();
 
-            TripContext.SeedData(app.ApplicationServices);
+            //TripContext.SeedData(app.ApplicationServices);
             
         }
     }
